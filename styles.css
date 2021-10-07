@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-hero-section-container {
+    background-color: black;
+    height: 700px;
+    background-image: url(images/background-img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.logo-header-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    background-color: rgb(44, 44, 44);
+}
+
+.menu-header-container {
+    display: flex;
+    border-color: rgba(255, 255, 255, 0.212);
+    background-color: rgb(44, 44, 44)
+}
+.menu-header-container a {
+    margin: 10px 70px 15px 70px;
+    text-decoration: none;
+    color: white;
+}
+.menu-header-container a:hover {
+    text-decoration: underline;
+}
+.left-space{
+    flex: 1;
+}
+.right-space {
+    flex: 1;
+}
+.main-hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.315)
+}
+
+.hero-txt {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#hero-heading-txt {
+    width: 600px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#hero-main-txt {
+    width: 500px;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 160%;
+}
+#forms-btn {
+    font-size: 15px;
+    font-weight: 800;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}
+#forms-btn:hover {
+    background-color: rgb(145, 0, 0);
+}
+
+.main-article-container {
+    background-color: lightgray;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.first-section-container {
+    display: flex;
+    padding: 150px 150px 150px 150px;
+    align-items: center;
+    
+}
+.a1-txt {
+    flex: 1;
+    width: 500px;
+}
+.a1-txt h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.a1-txt p {
+    margin-bottom: 30px;
+    line-height: 160%;
+}
+.a1-txt a {
+    border: solid 1px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.a1-txt a:hover {
+    background-color: black;
+    color: white;
+}
+.a1-spacing {
+    flex: .5;
+}
+#yt-vid-clean {
+    height: 500px;
+    width: 880px;
+    border: none;
+}
